@@ -1,4 +1,4 @@
-const readline = require("readline");
+const readline = require("readline"); //Esta línea importa el módulo sirve para poder leer datos escritos por el usuario en la consola.
 
 class Jugador {
     constructor(nombre, simbolo) {
