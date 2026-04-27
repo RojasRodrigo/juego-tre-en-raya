@@ -104,7 +104,7 @@ class Juego {
 
                 if (this.tablero.tableroLleno()) {
                     this.tablero.mostrar();
-                    console.log("Empate. El tablero está lleno.");
+                    console.log("Empate. El tablero está lleno no quedan espacios.");
                     this.rl.close();
                     return;
                 }
